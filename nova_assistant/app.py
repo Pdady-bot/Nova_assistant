@@ -16,8 +16,6 @@ import os
 sys.path.append(os.path.dirname(__file__))
 
 import streamlit as st
-from dotenv import load_dotenv
-load_dotenv()
 import streamlit.components.v1 as components
 from ai.nova_ai import get_nova_response, get_audio_html
 from data.store_data import (
